@@ -1,0 +1,18 @@
+{
+  "name": "devdocs",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Xie Ben-Gui",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^9.3.3",
+    "electron-builder": "^22.9.1"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  }
+}
